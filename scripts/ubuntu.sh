@@ -16,3 +16,8 @@ sudo apt install -y neovim
 
 #remove gnome dock
 sudo apt remove gnome-shell-extension-ubuntu-dock
+
+#git config
+git config --global init.defaultBranch main
+git config --global user.name "wrdowney"
+git config --global user.email "willd20@vt.edu"
