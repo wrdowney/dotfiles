@@ -1,0 +1,6 @@
+notes:
+- this is a bare repository, which means:
+	- scripts/dotfiles-install.sh can be used to install
+	- config add <filename> to add a file to the repository
+	- config commit -m "<message>" to commit changes to the repository
+	- config push origin main to push changes to the remote branch
