@@ -20,7 +20,6 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-
 	use('theprimeagen/harpoon')
 	use('mbbill/undotree')
 
@@ -45,6 +44,8 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
+
+    use 'marko-cerovac/material.nvim'
   	if packer_bootstrap then
     		require('packer').sync()
   	end
