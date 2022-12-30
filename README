@@ -1,4 +1,5 @@
 notes:
+- my neovim config requires a patched nerd font
 - this is a bare repository, which means:
 	- scripts/dotfiles-install.sh can be used to install
 	- config add <filename> to add a file to the repository
