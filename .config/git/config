@@ -1,0 +1,21 @@
+[core]
+    editor = nvim
+    autocrlf = input
+
+[user]
+    name = William Downey
+    email = me@wrdowney.com
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = true
+
+[push]
+    default = simple
+    followTags = yes
+
+[github]
+    user = wrdowney
+
