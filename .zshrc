@@ -6,7 +6,7 @@ alias wt="git worktree"
 
 # Functions
 
-# attach tmux
+## attach tmux
 function tat {
     name=$(basename `pwd` | sed -e 's/\.//g')
 
@@ -27,3 +27,6 @@ function vtg {
 
 # Install starship
 eval "$(starship init zsh)"
+
+# Install zoxide
+eval "$(zoxide init zsh)"
